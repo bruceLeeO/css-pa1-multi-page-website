@@ -1,0 +1,58 @@
+form {
+	margin: 0 auto;
+	width: 500px;
+	padding: 1em;
+	border:	1px solid #ccc000;
+	border-radius: 1em;
+	background-color: #ccc;
+}
+
+form div + div {
+	margin-top: .25em;
+}
+
+label {
+	font-family: cursive;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1em;
+	color: #bcbc00;
+}
+
+input, textarea {
+	font: 1em sans-serif;
+	width: 480px;
+	box-sizing: border-box;
+}
+
+textarea:hover {
+	border: 3px solid #00ffcc;
+}
+
+select {
+	font: .9em sans-serif;	
+}
+
+#button {
+	text-transform: uppercase;
+	font: 1em cursive;
+	font-weight: 700;
+	color: #ff0023;
+	background-color: #ceb;
+	border: 3px inset #afc;
+	border-radius: 1em;
+}
+
+#button:hover {
+	background-color: #008000;
+	color: #ffff00;
+}
+
+h2 {
+	background-color: #abc;
+	color: #feb;
+	font-family: cursive;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 1em;
+}

@@ -1,0 +1,62 @@
+legend {
+	font-family: sans-serif;
+}
+
+form {
+	margin: 0 auto;
+	width: 500px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+	background-color: #ccc;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+h2 {
+	/*border: 1px solid #000;*/
+	width: 325px;
+	font-family: sans-serif;
+}
+
+.lable {
+	display: inline-block;
+	width: 125px;
+	text-align: right;
+	/*border: 1px solid #000;*/
+	font: 1em sans-serif;
+}
+
+input {
+	font: 1em sans-serif;
+	width: 250px;
+	box-sizing: border-box;
+	border: 5px solid #999;
+}
+
+#button {
+	font-family: cursive;
+	font-size: 24px;
+	text-transform: capitalize;
+	border: 2px inset #eee;
+	background-color: #abc;
+	color: #fee;
+	font-weight: 800;
+}
+
+#chekbox {
+	width: 15px;
+}
+
+.checkbox {
+	border:	3px solid #aaa;
+}
+
+.checkbox-label {
+	width: 350px;
+	text-align: left;
+	/*border: 3px solid #000;*/
+	font: 1em sans-serif;	
+}
